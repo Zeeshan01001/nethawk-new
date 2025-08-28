@@ -1,0 +1,46 @@
+{
+  "scan_info": {
+    "timestamp": "2025-05-27T03:51:48.747639",
+    "targets": [
+      "localhost"
+    ],
+    "scan_stats": {
+      "total_hosts": 1,
+      "total_ports": 67,
+      "open_ports": 3,
+      "filtered_ports": 0,
+      "closed_ports": 64,
+      "start_time": 1748314307.7307837,
+      "end_time": 1748314308.7470956
+    },
+    "duration": 1.0163118839263916
+  },
+  "results": {
+    "localhost": {
+      "ip": "127.0.0.1",
+      "hostname": "localhost",
+      "os": "Linux/Unix",
+      "ports": {
+        "3306": {
+          "status": "open",
+          "service": "MySQL",
+          "description": "MySQL Database",
+          "banner": "[\u0000\u0000\u0000\n8.0.42-0ubuntu0.22.04.1\u0000\u000b\u0000\u0000\u0000r\u0015giB=tC\u0000\u0002\u0000\u0015\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u000e 4,a<^W\u0013Cj\u0000caching_sha2_password\u0000"
+        },
+        "22": {
+          "status": "open",
+          "service": "SSH",
+          "description": "Secure Shell",
+          "banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13"
+        },
+        "111": {
+          "status": "open",
+          "service": "Unknown",
+          "description": "Unknown Service",
+          "banner": null
+        }
+      },
+      "scan_time": "2025-05-27T03:51:47.739456"
+    }
+  }
+}
